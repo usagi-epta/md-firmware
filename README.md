@@ -13,7 +13,7 @@ In this repository, you can find the firmware for various portable MiniDisc play
 | CXD2678 | Type-S NetMD     | 0xA0000 (640k) | 0x9000 (36k)    | 8MiB             | ARM7TDMI      |
 | CXD2680 | Type-S NetMD     | 0xA0000 (640k) | 0x9000 (36k)    | 2MiB             | ARM7TDMI      |
 | CXD2681 | NetMD, HiMD      | 1MiB           | 64k             | 16MiB            | ARM7TDMI+     |
-| CXD2683 | NetMD, HiMD, Camera  | -          | -               | -                |               |
+| CXD2683 | NetMD, HiMD, Camera  | 4MiB external  | 64k         | At least 16MiB   | ARM7TDMI+     |
 | CXD2687 | NetMD, HiMD, Latest? | 1MiB       | 32k             | 16MiB            | ARM7TDMI+     |            
 
 ### Sony Players
@@ -64,6 +64,9 @@ Minor patches may have been applied to the firmware (using soft patches), so dum
 | **RH generation**     |                                                                |
 | v1.000                | MZ-RH10, MZ-RH910                                              |
 
+| **CXD2683**           | **Dumped devices**                                             |
+|-----------------------|----------------------------------------------------------------|
+| v1.000                | MZ-DH10P                                                       |
 
 | **CXD2687**           | **Dumped devices**                                             |
 |-----------------------|----------------------------------------------------------------|
